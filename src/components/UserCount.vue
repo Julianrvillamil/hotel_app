@@ -21,7 +21,7 @@ export default {
         let self = this
         axios.get("https://hotel-app-ciclo3.herokuapp.com/user/count/" + this.username)
             .then((result) => {
-                console.log("objetos %0:",result);
+                console.log("objetos %0:",result.data);
                 self.count = result.data.username
             })
             .catch((error) => {
