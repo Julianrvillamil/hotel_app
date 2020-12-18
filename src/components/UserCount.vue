@@ -1,7 +1,7 @@
 <template>
     <div id="UserCount">
         <h2>{{username}}</h2>
-        <h2>Tus datos son: <span> {{count}} . </span> </h2>
+        <h2>Tus datos son: <span> {{count}} trabajo en progreso :) </span> </h2>
     </div>
 </template>
 
