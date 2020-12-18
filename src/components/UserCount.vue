@@ -19,7 +19,7 @@ export default {
     created: function(){
         this.username = this.$route.params.username
         let self = this
-        axios.get("http://127.0.0.1:8000/user/count/" + this.username)
+        axios.get("https://hotel-app-ciclo3.herokuapp.com/user/count/" + this.username)
             .then((result) => {
                 console.log("objetos %0:",result);
                 self.count = result.data
